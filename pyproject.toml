@@ -1,0 +1,33 @@
+[project]
+name = "knowledge-base"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    # 基础工具
+    "loguru>=0.7.3",
+    "python-dotenv>=1.2.2",
+    "numpy>=1.26.0",
+    # LangGraph 生态系统
+    "langgraph>=0.2.0",
+    "langchain>=0.2.0",
+    "langchain-openai>=0.1.0",
+    "langchain-community>=0.2.0",
+    # Web 框架
+    "fastapi>=0.110.0",
+    "uvicorn>=0.29.0",
+    "python-multipart>=0.0.9",
+    # 数据库存储
+    "pymilvus>=2.4.0",
+    "pymilvus-model>=0.1.0",
+    "pymongo>=4.6.0",
+    "minio>=7.2.0",
+    # AI & 模型
+    "pandas>=2.2.0",
+    "modelscope>=1.14.0",
+    "FlagEmbedding>=1.2.0",
+    "magic-pdf>=0.7.0",
+    "regex>=2024.0.0",
+    # 图算法
+    "grandalf>=0.8.0",
+    "path>=17.1.1",
+]
